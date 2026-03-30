@@ -7,8 +7,7 @@ import psycopg
 
 from src.config import POSTGRES_DSN, TIMEZONE
 
-
-TABLE = "price_history"
+TABLE = "pricing_history"
 KNOWN_STORES = ("kabum", "terabyte", "pichau")
 
 _conn: psycopg.Connection | None = None
