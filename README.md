@@ -92,6 +92,12 @@ Dry-run (nao grava no Sheets nem gera CSV/historico):
 python agent.py --dry-run
 ```
 
+Testar conexao com o Postgres configurado no `config.json`:
+
+```bash
+python test_db_connection.py
+```
+
 ## Docker (Postgres + Metabase + Scraper)
 
 Arquivos:
