@@ -1,0 +1,14 @@
+.git/
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local runtime artifacts
+src/data/
+
+# Secrets / local config (mount via volumes)
+config.json
+credentials.json
+src/credentials.json
+

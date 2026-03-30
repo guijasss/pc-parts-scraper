@@ -1,0 +1,9 @@
+{
+  "spreadsheet_id": "COLOQUE_O_ID_DA_SUA_PLANILHA_AQUI",
+  "sheet_name": "NomeDaAba",
+  "excluded_types": ["Gabinete"],
+  "storage_backend": "postgres",
+  "postgres": {
+    "dsn_env": "SUPABASE_DB_DSN"
+  }
+}

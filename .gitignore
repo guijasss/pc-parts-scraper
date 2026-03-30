@@ -1,0 +1,15 @@
+config.json
+src/credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtualenv
+.venv/
+
+# IDEs
+.idea/
+
+.env
